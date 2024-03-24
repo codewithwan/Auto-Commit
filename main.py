@@ -28,7 +28,7 @@ access_token_file = './access_token.txt'
 if os.path.exists(access_token_file):
     print("Access token valid.")
 else:
-    print("Access token not valid.")
+    print("Access token invalid.")
 
 repo_name = "your_repo_name"
 
